@@ -1,0 +1,22 @@
+<VRTDataset rasterXSize="1000" rasterYSize="1000">
+       <metadata domain="GEOLOCATION">  
+         <mdi key="X_DATASET">lon.vrt</mdi>  
+         <mdi key="X_BAND">1</mdi>  
+         <mdi key="Y_DATASET">lat.vrt</mdi>  
+         <mdi key="Y_BAND">1</mdi>  
+         <mdi key="PIXEL_OFFSET">0</mdi>  
+         <mdi key="LINE_OFFSET">0</mdi>  
+         <mdi key="PIXEL_STEP">1</mdi>  
+         <mdi key="LINE_STEP">1</mdi>  
+       </metadata>   
+       <VRTRasterBand band="1" datatype="Int16">  
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">HDF5:/Users/jevans/Public/data/hdfeos/AGNS100.v003.64.-089.0001.h5://NDVI/Mean</SourceFilename>
+      <NoDataValue>-9999</NoDataValue>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Int16" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>
